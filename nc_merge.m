@@ -103,7 +103,7 @@ for i = 1:nvars
         for j = 1:filenumber
            ncid = netcdf.open([datadir,filelist(j).name], 'NC_NOWRITE');
            var = netcdf.getVar(ncid,netcdf.inqVarID(ncid,datainfo.Variables(1,i).Name));       
-           var_value = cat(find(bool==1),var,var_value);
+           var_value = cat(find(bool==1),var_value,var);
         end
     else
         
