@@ -13,7 +13,7 @@
 % %    Ruth Shaw, Ocean University of China
 % % revison history
 % %    2018-09-25 first verison. 
-% %    2018-10-05 first verison. 
+% %    2018-10-05 second verison. 
 %  
 % %%
 
