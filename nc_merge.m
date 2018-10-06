@@ -26,7 +26,7 @@ datadir = 'F:\Australia\data\input\';
 addpath(datadir)
 
 filelist = dir([datadir,'ocean_temp','*.nc']);
-filenumber = 29;
+filenumber = size(filelist,1);
 
 %% create the merged netcdf file to store the result.
  
